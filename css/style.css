@@ -674,6 +674,10 @@ img{
     padding: auto;
 }
 
+.qualification__image{
+  fill-opacity: 0.0;
+}
+
 .qualification__button{
     color: var(--first-color);
     font-size: var(--h2-font-size);
