@@ -1,0 +1,1549 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+     
+     <!-- ICONS -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+ 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+     <!-- Argon CSS -->
+     <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+ 
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Personal Styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MattKingIT Portfolio</title>
+  </head>
+  <body>
+<!-- ------------- HEADER -------------------->
+<header class="header" id="header">
+  <nav class="nav container navbar-expand-lg">
+    <img src="img/bluet.png" width="72" height="72" alt="blue logo"/>
+      <a href="#" class="nav__logo navbar-brand ml-3">MattKingIT</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+              <li class="nav__item">
+                  <a href="#home" class="nav__link">
+                      <i class="uil uil-estate nav__icon"></i>Home
+                  </a>
+              </li>
+
+              <li class="nav__item">
+                  <a href="#about" class="nav__link">
+                      <i class="uil uil-user nav__icon"></i>About
+                  </a>
+              </li>
+
+              <li class="nav__item">
+                  <a href="#skills" class="nav__link">
+                      <i class="uil uil-file nav__icon"></i>Skills
+                  </a>
+              </li>
+
+              <li class="nav__item">
+                  <a href="#qualifications" class="nav__link">
+                      <i class="uil uil-diary nav__icon"></i>Qualification
+                  </a>
+              </li>
+
+              <li class="nav__item">
+                  <a href="#portfolio" class="nav__link">
+                      <i class="uil uil-scenery nav__icon"></i>Portfolio
+                  </a>
+              </li>
+
+              <li class="nav__item">
+                  <a href="#contact" class="nav__link">
+                      <i class="uil uil-message nav__icon"></i>Contact Me
+                  </a>
+              </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__btns">
+          <!-- THEME CHANGING BUTTONS -->
+          <i data-mode= "dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+              <i class="uil uil-apps"></i>
+          </div>
+      </div>
+  </nav>
+</header>
+
+<!-- ============== MAIN =============== -->
+<main class="main">
+
+<!-- ------------- HOME -------------------->
+  <section class="home section" id="home">
+      <div class="home__container container grid">
+
+          <div class="home__content grid">
+              <div class="home__social">
+                  <a href="https://www.linkedin.com/in/mattkingit/" target="_blank" class="home__social-icon" id="myLinkedIn">
+                      <i class="uil uil-linkedin-alt"></i>
+                  </a>
+
+                  <a href="https://github.com/mattkingit" target="_blank" class="home__social-icon" id="myGithub">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+
+                  <a href="https://www.instagram.com/mattkingit/" target="_blank" class="home__social-icon" id="myInstagram">
+                      <i class="uil uil-instagram"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com/mattkingit" target="_blank" class="home__social-icon" id="myFacebook">
+                      <i class="uil uil-facebook-f"></i>
+                  </a>
+
+                  <a href="https://twitter.com/mattkingit" target="_blank" class="home__social-icon" id="myTwitter">
+                      <i class="uil uil-twitter-alt"></i>
+                  </a>
+              </div>
+          </div>
+
+          <div class="home__data">
+              <small class="home__welcome s-color"> Welcome to my Portfolio Website! </small>
+              <h1 class="home__title"> Hello, I am</h1>
+              <div id="typewriter"></div>
+              <h3 class="home__subtitle" id="home-bio">a developer enthusiastic about technology and web development, passionate about learning new technologies. Also a big fan of wrestling, music and movies </h3>
+              <a href="#contact" class="button button--flex">
+                  Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+          </div>
+
+      </div>
+
+      <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <!-- <span class="home__scroll-name"> Scroll Down </span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+          </a>
+      </div>
+  </section>
+
+<!-- ------------- ABOUT ME -------------------->
+  <section class="about section" id="about">
+      <h3 class="section__title">About</h3>
+      <span class="section__subtitle"> My Introduction </span>
+
+      <div class="about__container container grid">
+          <img src="img/profile3.png" width=150 height=200 alt="my professional photo" class="about__img">
+
+          <div class="about__data">
+              <p class="about__description" id="home-about"> 
+                  .NET developer, with extensive knowledge and years of experience working with mobile and web app technologies. Professionally I am a Systems Developer and Linux Administrator.
+              </p>
+          </div>
+
+          <div class="about__info">
+              <div>
+                  <span class="about__info-title"> 20+ </span>
+                  <span class="about__info-name"> Years <br> Experience </span>
+              </div>
+
+              <div>
+                  <span class="about__info-title"> 10+ </span>
+                  <span class="about__info-name"> Completed <br> Projects </span>
+              </div>
+
+              <div>
+                  <span class="about__info-title"> 5+ </span>
+                  <span class="about__info-name"> Companies <br> Worked </span>
+              </div>
+          </div>
+
+          <div class="about__buttons">
+              <a href="assets/Resume2021.pdf" download="my_resume" target="_blank" class="button button--flex">
+                  Download Resume <i class="uil uil-download-alt button__icon"></i>
+              </a>
+          </div>
+      </div>
+  </section>
+
+<!-- ------------- Skills-------------------->
+  <section class="skills section" id="skills">
+      <h3 class="section__title"> Skillset </h3>
+      <span class="section__subtitle"> My skillsets </span>
+
+      <div class="skills__container container grid">
+          <div class="row" id="skillset_container">
+
+              <!-- Power BI -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/PowerBI.svg" alt="Power BI logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Power BI </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Tableau -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/tableau.svg" alt="Tableau logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Tableau </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- MS Excel -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/Excel.svg" alt="MS Excel logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Excel </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Sql Server -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/sqlserver.svg" alt="SQL Server logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> SQL Server </h6>
+                      </div>
+                  </div>
+              </div>
+
+            <!-- MySQL -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/mysql.svg" alt="MySQL logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> MySQL </h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PostGreSql -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/postgresql.svg" alt="PostgreSQL logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> PostgreSQL </h6>
+                    </div>
+                </div>
+            </div>
+
+              <!-- Sqlite -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/sqlite.svg" alt="SQLite logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> SQLite </h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Python -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/python.svg" alt="Python logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Python </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- R -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/R.svg" alt="R logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> R </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Mathematica -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/matlab.svg" alt="MatLab logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Mathematica </h6>
+                      </div>
+                  </div>
+              </div>
+
+            <!-- Mulesoft -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/mulesoft.svg" alt="Mulesoft logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> Mulesoft </h6>
+                    </div>
+                </div>
+            </div>
+
+              <!-- Git -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/git.svg" alt="Git logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Git </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Github -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/github.svg" alt="Github logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Github </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- HTML -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/html.svg" alt="HTML logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> HTML </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- CSS -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/css.svg" alt="CSS logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> CSS </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- JavaScript -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/javascript.svg" alt="JavaScript logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Javascript </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Bootstrap -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/bootstrap.svg" alt="Bootstrap logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Bootstrap </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Django -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/django.svg" alt="Django logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Django </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- VS Code -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/vscode.svg" alt="VS Code logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> VS Code </h6>
+                      </div>
+                  </div>
+              </div>
+
+            <!-- Visual Studio -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/vstudio.svg" alt="Visual Studio logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> Visual Studio </h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- .NET -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/dotnet.svg" alt=".NET logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> .NET </h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Linux -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/linux.svg" alt="Linux logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> Linux </h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Apache -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/apache.svg" alt="Apache logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> Apache </h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tomcat -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/apacheTomcat.svg" alt="Apache Tomcat logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> Apache Tomcat </h6>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PowerShell -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/powershell2.svg" alt="PowerShell logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> PowerShell </h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wordpress -->
+            <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/wordpress.svg" alt="Wordpress logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> Wordpress </h6>
+                    </div>
+                </div>
+            </div>
+
+              <!-- MS Office -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="assets/logos/msoffice.svg" alt="Microsoft Office logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> Office </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Skill 14 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/genetec.png" alt="Genetec logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> Genetec </h6>
+                    </div>
+                </div>
+            </div>
+
+              <!-- Skill 15 -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="https://res.cloudinary.com/bjha/image/upload/v1627831743/skillset%20logos/autocad-logo-C9817CB828-seeklogo.com_mscdmi.png" alt="HTML logo">
+                      </div>
+                      <div class="contentBx">
+                          <h6> AutoCAD </h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Skill 16 -->
+
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="assets/logos/gitlab.svg" alt="GitLab logo">
+                    </div>
+                    <div class="contentBx">
+                        <h6> GitLab </h6>
+                    </div>
+                </div>
+            </div>
+
+              <!-- Skill 17 -->
+
+          </div>
+      </div>
+  </section>
+<!-- ------------- QUALIFICATIONS (Education and Experience) -------------------->
+  <section class="qualification section" id="qualifications">
+      <h3 class="section__title"> Qualifications </h3>
+      <span class="section__subtitle"> My persoanl Journey </span>
+
+      <div class="qualification__container container">
+
+          <div class="row mt-lg-0">
+              <!-- Education -->
+              <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+                  <div class="qualification__button button--flex">
+                      <i class="uil uil-graduation-cap qualification__icon"></i> Education
+                  </div>
+
+                  <div id="education_timeline">
+                      <div class="container py-2">
+
+                          <!-- edX -->
+                          <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          2021
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> CS50 </h3>
+                                                  <p class="qualification__subtitle"> Harvard - MOOC </p>
+                                                  <img class="qualification__image" src="assets/logos/edx.svg" alt="EdX.org">
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Built Web-design skills </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- University of South Florida -->
+                          <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          2012
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  
+                                  <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2007
+                                    </span>
+                                </h5>
+
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Bachelor in Information Technology </h3>
+                                                  <p class="qualification__subtitle"> University of South Florida - Polytechnic </p>
+                                                  <img class="qualification__image" src="assets/logos/usf.svg" alt="University of South Florida">
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Bachelor in Information Technology. </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                         <!-- Hillsborough Community College -->
+                         <div class="row">
+                            <!-- Timeline design -->
+                            <div class="col-auto text-center flex-column d-sm-flex">
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2007
+                                    </span>
+                                </h5>
+
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2003
+                                    </span>
+                                </h5>
+
+                            </div>
+                            <!-- Timeline content Events -->
+                            <!-- Hillsborough Community College -->
+                            <div class="col py-2">
+                                <div class="card education-card transparent_card mirror-face shadow2">
+                                    <div class="card-body">
+                                        <div class="task">
+                                            <div class="abstract">
+                                                <h3 class="qualification__title"> Database Management and Computer Programming </h3>
+                                                <p class="qualification__subtitle"> Hillsborough Community College </p>
+                                                <img class="qualification__image" src="assets/logos/hcc.svg" alt="HCC">
+                                            </div>
+                                            <div class="details">
+                                                <p class="qualification__subtitle"> Completed 3 years of courses in Systems and Database Administration, Database, Web and Game Development. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+
+                         <!-- Tallahassee Community College -->
+                         <div class="row">
+                            <!-- Timeline design -->
+                            <div class="col-auto text-center flex-column d-sm-flex">
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2003
+                                    </span>
+                                </h5>
+
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2002
+                                    </span>
+                                </h5>
+
+                            </div>
+                            <!-- Tallahassee Community College -->
+                            <div class="col py-2">
+                                <div class="card education-card transparent_card mirror-face shadow2">
+                                    <div class="card-body">
+                                        <div class="task">
+                                            <div class="abstract">
+                                                <h3 class="qualification__title"> Tallahassee Community College </h3>
+                                                <p class="qualification__subtitle">Associates in Computer Programming</p>
+                                                <img class="qualification__image" src="assets/logos/tcc2.svg" alt="Tallahasee Community College">
+                                            </div>
+                                            <div class="details">
+                                                <p class="qualification__subtitle">Associates in Arts - Computer Programming </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+
+                        <!-- San Antonio College -->
+                        <div class="row">
+                            <!-- Timeline design -->
+                            <div class="col-auto text-center flex-column d-sm-flex">
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2001
+                                    </span>
+                                </h5>
+
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2000
+                                    </span>
+                                </h5>
+
+                            </div>
+
+                            <!-- San Antonio College -->
+                            <div class="col py-2">
+                                <div class="card education-card transparent_card mirror-face shadow2">
+                                    <div class="card-body">
+                                        <div class="task">
+                                            <div class="abstract">
+                                                <h3 class="qualification__title"> Computer Programming </h3>
+                                                <p class="qualification__subtitle"> San Antonio College </p>
+                                                <img class="qualification__image" src="assets/logos/sac.svg" alt="SAC">
+                                            </div>
+                                            <div class="details">
+                                                <p class="qualification__subtitle"> Completed courses in Unix, Bash and Web Development. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Univesity of San Antonio -->
+                        <div class="row">
+                            <!-- Timeline design -->
+                            <div class="col-auto text-center flex-column d-sm-flex">
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2001
+                                    </span>
+                                </h5>
+
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        1999
+                                    </span>
+                                </h5>
+
+                            </div>
+                            <!-- University of Texas at San Antonio -->
+                            <div class="col py-2">
+                                <div class="card education-card transparent_card mirror-face shadow2">
+                                    <div class="card-body">
+                                        <div class="task">
+                                            <div class="abstract">
+                                                <h3 class="qualification__title"> Computer Science </h3>
+                                                <p class="qualification__subtitle"> University of Texas at San Antonio (UTSA) </p>
+                                                <img class="qualification__image" src="assets/logos/UTSA2.svg" alt="UTSA">
+                                            </div>
+                                            <div class="details">
+                                                <p class="qualification__subtitle"> Completed courses in Java and Visual Basic. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          
+                        <!-- Timeline item 7 - UC -->
+                        <div class="row">
+                            <!-- Timeline design -->
+                            <div class="col-auto text-center flex-column d-sm-flex">
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        1997
+                                    </span>
+                                </h5>
+
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        1994
+                                    </span>
+                                </h5>
+
+                            </div>
+                            <!-- University of Cincinnati -->
+                            <div class="col py-2">
+                                <div class="card education-card transparent_card mirror-face shadow2">
+                                    <div class="card-body">
+                                        <div class="task">
+                                            <div class="abstract">
+                                                <h3 class="qualification__title"> Computer Science </h3>
+                                                <p class="qualification__subtitle"> University of Cincinnati </p>
+                                                <img class="qualification__image" src="assets/logos/uc.svg" alt="University of Cincinnati">
+                                            </div>
+                                            <div class="details">
+                                                <p class="qualification__subtitle"> Completed courses in Fortran, Mathematica, Lisp, Prolog, C and C++. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- Timeline item end -->
+
+                           <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__start">
+                                              <i class="uil uil-rocket qualification__start-icon"></i>
+                                          </span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Experience -->
+              <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
+                  <div class="qualification__button button--flex">
+                      <i class="uil uil-briefcase-alt qualification__icon"></i> Experience
+                  </div>
+
+                  <div id="expreience_timeline">
+                      <div class="container py-2">
+
+                          <!-- LifePoint Health -->
+                          <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          2022
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2022
+                                    </span>
+                                </h5>
+
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Data Analyst </h3>
+                                                  <p class="qualification__subtitle"> Lifepoint Health </p>
+                                                  <img class="qualification__image" src="assets/logos/lifepointlogo.svg" alt="Tenax Tech">
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Data Wrangling, cleansing, visualization and story telling with SQL, Power BI and other technologies  </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- Tenax Technologies -->
+                          <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          2022
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2021
+                                    </span>
+                                </h5>
+
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Systems Programmer </h3>
+                                                  <p class="qualification__subtitle"> Tenax Technology </p>
+                                                  <img class="qualification__image" src="assets/logos/tenax.svg" alt="Tenax Tech">
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Systems Programmer and Unix Administrator. .NET Developer with Blazor, C# and Entity Framework. Systems Administrator with RHEL 7/8.  </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                           <!-- City of Tampa -->
+                           <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          2021
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2003
+                                    </span>
+                                  </h5>
+
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Senior Applications Programmer and Analyst </h3>
+                                                  <p class="qualification__subtitle"> City of Tampa </p>
+                                                  <img class="qualification__image" src="assets/logos/cot.svg" alt="City of Tampa">
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> SCCM Administrator, Genetec Administrator, Mulesoft Administrator, Database Administrator, PowerShell scripting and Database development. </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                           <!-- Xamarin and MAD Tampa -->
+                           <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          2020
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2017
+                                    </span>
+                                </h5>
+
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Xamarin and Mobile App Developerment Co-Organizer </h3>
+                                                  <p class="qualification__subtitle"> Mobile App Developer (MAD) and Xamarin User Group </p>
+                                                  <img class="qualification__image" src="assets/logos/xam.svg" alt="Xamarin User Group">
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Helped coordinate and organize training for user group in Tampa</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+
+                            <!-- ERS Group -->
+                            <div class="row">
+                            <!-- Timeline design -->
+                            <div class="col-auto text-center flex-column d-sm-flex">
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2003
+                                    </span>
+                                </h5>
+
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2000
+                                    </span>
+                                </h5>
+                            </div>
+                            <!-- Timeline content Events -->
+                            <div class="col py-2">
+                                <div class="card education-card transparent_card mirror-face shadow2">
+                                    <div class="card-body">
+                                        <div class="task">
+                                            <div class="abstract">
+                                                <h3 class="qualification__title"> Applications Programmer Analyst </h3>
+                                                <p class="qualification__subtitle"> ERS Group (Economic Reseach Services) </p>
+                                                <img class="qualification__image" src="assets/logos/ers.svg" alt="ERS">
+                                            </div>
+                                            <div class="details">
+                                                <p class="qualification__subtitle"> Develop Application using MS Access and Visual Basic for Applications </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <!-- United States Navy -->
+                            <div class="row">
+                                <!-- Timeline design -->
+                                <div class="col-auto text-center flex-column d-sm-flex">
+                                    <div class="row h-50 qualification__journey">
+                                        <div class="col">
+                                            <span class="qualification__line"></span>
+                                        </div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+
+                                    <h5>
+                                        <span class="badge qualification__calendar">
+                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                            2012
+                                        </span>
+                                    </h5>
+
+                                    <div class="row h-50 qualification__journey">
+                                        <div class="col">
+                                            <span class="qualification__line"></span>
+                                        </div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+
+                                    <h5>
+                                        <span class="badge qualification__calendar">
+                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                            1990
+                                        </span>
+                                    </h5>
+
+                                </div>
+                                <!-- Timeline content Events -->
+                                <div class="col py-2">
+                                    <div class="card education-card transparent_card mirror-face shadow2">
+                                        <div class="card-body">
+                                            <div class="task">
+                                                <div class="abstract">
+                                                    <h3 class="qualification__title"> Information Technology and Operations Specialist </h3>
+                                                    <p class="qualification__subtitle"> United States Navy </p>
+                                                    <img class="qualification__image" src="assets/logos/usn.svg" alt="United States Navy Group">
+                                                </div>
+                                                <div class="details">
+                                                    <p class="qualification__subtitle"> Supervisor for the Technology Division and Unit. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- USAA -->
+                           <div class="row">
+                            <!-- Timeline design -->
+                            <div class="col-auto text-center flex-column d-sm-flex">
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        2000
+                                    </span>
+                                </h5>
+
+                                <div class="row h-50 qualification__journey">
+                                    <div class="col">
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+
+                                <h5>
+                                    <span class="badge qualification__calendar">
+                                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                        1999
+                                    </span>
+                                </h5>
+                            </div>
+                            <!-- Timeline content Events -->
+                            <div class="col py-2">
+                                <div class="card education-card transparent_card mirror-face shadow2">
+                                    <div class="card-body">
+                                        <div class="task">
+                                            <div class="abstract">
+                                                <h3 class="qualification__title"> Applications Programmer - Temporary </h3>
+                                                <p class="qualification__subtitle"> United States Automobile Association (USAA) </p>
+                                                <img class="qualification__image" src="assets/logos/usaa.svg" alt="USAA">
+                                            </div>
+                                            <div class="details">
+                                                <p class="qualification__subtitle"> Develop web applications with Microsoft FrontPage, Application support and SQL to Oracle Conversion  </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        
+                            <!-- Akin Gump -->
+                            <div class="row">
+                                <!-- Timeline design -->
+                                <div class="col-auto text-center flex-column d-sm-flex">
+                                    <div class="row h-50 qualification__journey">
+                                        <div class="col">
+                                            <span class="qualification__line"></span>
+                                        </div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+    
+                                    <h5>
+                                        <span class="badge qualification__calendar">
+                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                            1999
+                                        </span>
+                                    </h5>
+    
+                                    <div class="row h-50 qualification__journey">
+                                        <div class="col">
+                                            <span class="qualification__line"></span>
+                                        </div>
+                                        <div class="col">&nbsp;</div>
+                                    </div>
+    
+                                    <h5>
+                                        <span class="badge qualification__calendar">
+                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                            1998
+                                        </span>
+                                    </h5>
+                                </div>
+                                <!-- Timeline content Events -->
+                                <div class="col py-2">
+                                    <div class="card education-card transparent_card mirror-face shadow2">
+                                        <div class="card-body">
+                                            <div class="task">
+                                                <div class="abstract">
+                                                    <h3 class="qualification__title"> Data Entry - Temporary </h3>
+                                                    <p class="qualification__subtitle"> Akin, Gump, Straus, Hauer and Feld </p>
+                                                    <img class="qualification__image" src="assets/logos/akingump.svg" alt="Akin Gump">
+                                                </div>
+                                                <div class="details">
+                                                    <p class="qualification__subtitle"> Microsoft Access and data entry support </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                          <!-- Timeline item end -->
+                          <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__start">
+                                              <i class="uil uil-rocket qualification__start-icon"></i>
+                                          </span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+<!-- ------------- PORTFOLIO -------------------->
+  <section class="portfolio section" id="portfolio">
+
+
+  </section>
+
+<!-- ------------- CONTACT -------------------->
+  <section class="contact section" id="contact">
+      <h3 class="section__title"> Contact Me </h3>
+      <span class="section__subtitle"> Get in touch</span>
+
+      <div class="row mt-lg-6 justify-content-center contact_mail">
+          <!-- Contact information -->
+          <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+              <div class="contact__information">
+                  <i class="uil uil-phone contact__icon"></i>
+
+                  <div>
+                      <h3 class="contact__title">Call Me</h3>
+                      <span class="contact__subtitle">813-555-6666</span>
+                  </div>
+              </div>
+
+              <div class="contact__information">
+                  <i class="uil uil-envelope contact__icon"></i>
+
+                  <div>
+                      <h3 class="contact__title">E-mail</h3>
+                      <span class="contact__subtitle">my-email@gmail.com</span>
+                  </div>
+              </div>
+
+              <div class="contact__information">
+                  <i class="uil uil-location-pin-alt contact__icon"></i>
+                  <div>
+                      <h3 class="contact__title">Address</h3>
+                      <span class="contact__subtitle"> Clarksville, TN </span>
+                  </div>
+              </div>
+          </div>
+
+          <!-- FORM -->
+<!--          
+          <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+              <h3 class="contact__title"> Interested to work together? - <span> Let's talk </span></h3>
+
+              <form action="#" method="POST" class="cf">
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                      </div> 
+                      <div class="col-lg-6">
+                          <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                      </div>
+                      <div class="col-12">
+                          <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                      </div>
+                      <div class="col-12">
+                          <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                      </div>
+                      <div class="col-12">
+                          <button type="submit" class="button button--flex send-message form_button">
+                              Send Message
+                              <i class="uil uil-message button__icon"></i>
+                          </button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+-->
+
+      </div>
+  </section>
+</main>
+
+<!-- ------------- FOOTER -------------------->
+<footer class="footer">
+  <div class="footer__bg">
+      <div class="footer__container container grid">
+
+          <div>
+              <h1 class="footer__title"> MattKingIT </h1>
+              <span class="footer__subtitle">Systems Administrator and Developer</span>
+          </div>
+
+          <ul class="footer__links">
+              <li>
+                  <a href="#about" class="footer__link"> About Me</a>
+              </li>
+
+              <li>
+                  <a href="#portfolio" class="footer__link"> My Portfolio</a>
+              </li>
+
+              <li>
+                  <a href="#contact" class="footer__link"> Contact Me</a>
+              </li>
+          </ul>
+
+          <div class="footer__socials">
+              <a href="https://www.linkedin.com/in/mattkingit/" target="_blank" class="footer__social" id="myLinkedIn">
+                  <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a href="https://github.com/mattkingit" target="_blank" class="footer__social" id="myGithub">
+                <i class="uil uil-github-alt"></i>
+             </a>
+
+              <a href="https://www.instagram.com/mattkingit/" target="_blank" class="footer__social" id="myInstagram">
+                  <i class="uil uil-instagram"></i>
+              </a>
+
+              <a href="https://www.facebook.com/mattkingit" target="_blank" class="footer__social" id="myFacebook">
+                  <i class="uil uil-facebook-f"></i>
+              </a>
+
+              <a href="https://twitter.com/mattkingit" target="_blank" class="footer__social" id="myTwitter">
+                  <i class="uil uil-twitter-alt"></i>
+              </a>
+          </div>
+      </div>
+
+      <p class="footer__copy">&#169; MLK. All rights reserved</p>
+  </div>
+</footer>
+
+
+<!-- ------------- SCROLL TOP -------------------->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+    <!-- Core -->
+    <script src="js/core/jquery.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+
+    <!-- Argon JS -->
+    <script src="js/argon-design-system.js"></script>
+
+    <!--  Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Self Script -->
+    <script src=js/script.js></script>
+  </body>
+</html>
